@@ -1,0 +1,68 @@
+/*index
+1. common css
+2. home page
+*/
+
+/*common css*/
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.main-body{
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*navbar design*/
+.navbar>.container-fluid {
+    display: block;
+}
+.dropdown-menu{
+    border: unset !important;
+}
+.dropend .dropdown-toggle {
+    color: salmon;
+    margin-left: 1em;
+}
+.dropdown-item:hover {
+    background-color: lightsalmon;
+    color: #fff;
+}
+.dropdown .dropdown-menu {
+    display: none;
+}
+.dropdown:hover > .dropdown-menu,
+.dropend:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0.125em;
+    margin-left: 0.125em;
+}
+@media screen and (min-width: 769px) {
+    .dropend:hover > .dropdown-menu {
+        position: absolute;
+        top: 0;
+        left: 100%;
+    }
+    .dropend .dropdown-toggle {
+        margin-left: 0.5em;
+    }
+}
+
+
+/*homepage slider section design*/
+section.home_slider {
+    height: 500px; /* Set your desired height here */
+    overflow: hidden; /* Ensures that images don't overflow the container */
+}
+
+section.home_slider .carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensures the entire image is visible within the container */
+}
+
+
