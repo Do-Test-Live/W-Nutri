@@ -12,6 +12,7 @@ body{
     padding: 0;
     min-height: 100vh;
     font-family: raleway, sans-serif;
+    background-color: #fffdee;
 }
 
 .main-body{
@@ -36,7 +37,7 @@ a{
 }
 
 .nav-link{
-    color:#947161 !important;
+    color:#8a6352  !important;
 }
 
 .nav-link:hover{
@@ -74,7 +75,7 @@ a{
 }
 
 footer{
-    background-color: #dc946c;
+    background-color: #249d2c;
     padding-top: 20px;
 }
 
@@ -87,11 +88,11 @@ footer p{
 }
 
 footer .nav-link{
-    color: #8a6352;
+    color: #1c7521 !important;
 }
 
 footer .nav-link:hover{
-    color: #9a3400 !important;
+    color: #4fd656 !important;
 }
 
 .copyright{
@@ -121,7 +122,7 @@ section.home_slider .carousel-inner img {
 
 /*main body content*/
 .body-content{
-    background: #f9f2e8;
+    background: #fffdee;
 }
 
 /*card design*/
@@ -247,7 +248,8 @@ section.home_slider .carousel-inner img {
 }
 .side-card{
     padding: 20px;
-    background-color: #f6eadc;
+    background-color: #fedacb;
+    border-bottom: 1px solid #9c6854;
 }
 
 .side-card .title{
@@ -270,9 +272,34 @@ section.home_slider .carousel-inner img {
 }
 
 .btn{
-    background-color: #f6eadc;
+    background-color: #fedacb;
     color: #8e6854;
     font-weight: bold;
+}
+
+.page-title{
+    color: #9c6854;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.profile-title{
+    color: #8e6854;
+    font-size: 2.5rem;
+    border-bottom: 1px solid #8e6854;
+}
+
+.team-image{
+    max-height: 300px;
+    width: auto;
+}
+
+.team-keypoints{
+    line-height: 2;
+    padding-left: 0;
+}
+.team-keypoints li{
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 992px){
@@ -281,6 +308,9 @@ section.home_slider .carousel-inner img {
     }
     .side-card .title{
         padding: 0;
+    }
+    .page-title{
+        font-size: 1.5rem;
     }
 }
 
