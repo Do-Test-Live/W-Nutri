@@ -20,7 +20,7 @@
         </div>-->
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
-                <img src="assets/images/home_banner/01.png" class="d-block w-100" alt="...">
+                <img src="assets/images/home_banner/2.png" class="d-block w-100" alt="...">
             </div>
         </div>
         <!--<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">

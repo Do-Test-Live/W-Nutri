@@ -3,7 +3,7 @@
         <div class="row d-flex footer-top">
             <div class="col-12 col-lg-6">
                 <p><i class="fa-solid fa-phone"></i> 聯絡電話: +852 6353 2978</p>
-                <p><i class="fa-solid fa-car"></i> 電郵：nutrihealthia.hk@gmail.com</p>
+                <p><i class="fa-solid fa-envelope"></i> 電郵：nutrihealthia.hk@gmail.com</p>
             </div>
             <div class="col-6 justify-content-end my-auto d-lg-flex d-none">
                 <ul class="list-unstyled d-flex">

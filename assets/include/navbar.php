@@ -1,15 +1,15 @@
-<nav class="navbar navbar-expand-lg navbar-light container">
-    <div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
         <div class="row">
             <div class="col-12 col-md-4 col-lg-4">
                 <a class="navbar-brand fw-bold" href="index.php"><img src="assets/images/logo/img.png" class="logo"/> </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                        aria-expanded="false" aria-label="Toggle navigation" style="margin-left: 20px">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
-            <div class="col-8 ms-auto">
+            <div class="col-12 col-lg-8 ms-auto">
                 <div class="row">
                     <div class="col-12">
                         <div class="collapse navbar-collapse">
